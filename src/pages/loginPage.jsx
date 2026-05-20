@@ -1,14 +1,19 @@
-import "./loginPage.css"
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom"
+import "../index.css"
 
 export default function LoginPage() {
-    return (
-        <div>
-            <h1>Login Page </h1>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <button>Login</button>
-            <Link to="/">Go to Home</Link>
-        </div>
-    )
-}   
+  return (
+
+    <div className = "w-[359px] h-[359px] border border-black relative" >
+       
+       <div className="w-36 h-36 bg-red-600 absolute right-[10px] top-[10px]  z-[100]">
+       </div>
+      
+       <div className="w-36 h-36 bg-blue-600  fixed right-[10px] top -[10px] ">
+
+       
+       </div>
+
+    </div>
+  )
+}
